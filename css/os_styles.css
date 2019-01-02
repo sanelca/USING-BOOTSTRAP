@@ -246,3 +246,45 @@
     font-weight: 700;
     cursor: pointer;
 }
+
+.editorPicks {
+
+}
+.editorPicks article {
+    float: left;
+    width: 100%;
+}
+.editorPicks article picture {
+    float: left;
+    position: relative;
+}
+.editorPicks article picture img {
+    float: left;
+    width: 100%;
+    cursor: pointer;
+}
+.editorPicks article picture span {
+    position: absolute;
+    bottom: 0;
+    float: left;
+    left: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #ececec;
+    color: red;
+    font-weight: 700;
+    cursor: pointer;
+}
+.editorPicks article h3 {
+    float: left;
+    width: 100%;
+    font-size: 21px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.editorPicks article h3:hover {
+    text-decoration: underline  red;
+}
