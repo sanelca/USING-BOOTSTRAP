@@ -288,3 +288,61 @@
 .editorPicks article h3:hover {
     text-decoration: underline  red;
 }
+
+.categoriesSection {
+
+}
+.categoriesSection .titleCategory {
+    color: #ff0909;
+}
+
+.categoriesSection article {
+
+}
+.categoriesSection article img {
+    float: left;
+    width: 100%;
+    cursor: pointer;
+}
+.categoriesSection article h3 {
+    float: left;
+    width: 100%;
+    font-size: 21px;
+    font-weight: 700;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.categoriesSection article h3:hover {
+    text-decoration: underline red;
+}
+.categoriesSection  ul {
+    list-style: none;
+    margin: 0;
+    float: left;
+    padding: 0;
+}
+.categoriesSection  ul li {
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.categoriesSection  ul li a {
+    float: left;
+
+}
+.categoriesSection  ul li a img {
+    float: left;
+    cursor: pointer;
+    width: 30%;
+}
+.categoriesSection  ul li a  span {
+    margin-left: 10px;
+    float: left;
+    width: 67%;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.categoriesSection  ul li a  span:hover {
+    color: red;
+}
