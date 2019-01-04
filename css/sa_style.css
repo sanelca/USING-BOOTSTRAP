@@ -1,0 +1,125 @@
+.headerTop, .navbarBottom, .afixSection .row {
+    margin: 0;
+    position: relative;
+}
+.headerTop {
+    background-color: #ff0707;
+}
+.headerTop .center {
+    text-align: center;
+}
+.headerTop .center svg {
+    fill: white;
+    width: 60%;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+.headerTop .left {
+
+}
+.headerTop .left span {
+    color: white;
+    position: absolute;
+    bottom: 7px;
+    left: 20px;    
+}
+.headerTop .right{
+
+}
+.headerTop .right a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    font-weight: 900;
+    float: right;
+    margin-top: 35px;
+}
+.headerTop .right .subscribe {
+    background-color: white;
+    color: red;
+}
+.headerTop .right .subscribe span {
+    float: left;
+    margin-top: 1px;
+}
+.headerTop .right .subscribe svg{
+    fill: red;
+    width: 9px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.headerTop .right .signIn{
+    margin-right: 10px;
+    color: white;
+    
+}
+.navbarBellowRedtrack {
+    border-bottom: solid 1px #ececec;
+    display: block;
+    float: left;
+    width: 100%;
+    background-color: white!important;
+}
+.navbarBellowRedtrack ul {
+    float: left;
+    display: block;
+    max-width: 90%;   
+}
+.navbarBellowRedtrack ul li {
+    float: left;
+}
+.navbarBellowRedtrack ul li a {
+    float: left;
+    color: black!important;
+    font-weight: 900;
+    padding-left: 25px!important;
+    padding-right: 25px!important;
+    font-size: 20px;
+    border-right: solid 1px #cccccc; 
+}
+.navbarBellowRedtrack ul li a.imageLink {
+    
+}
+.navbarBellowRedtrack ul li a.imageLink img {
+    width: 110px;
+}
+.navbarBellowRedtrack ul li a:hover {
+    color: red!important;
+}
+.navbarBellowRedtrack form {
+    float: left;
+    margin-left: 20px;
+}
+.navbarBellowRedtrack form input {
+border: none;
+    background: none;
+    width: 65px!important;
+    margin: 0!important;
+    padding: 0!important;
+}
+.navbarBellowRedtrack form button {
+    background: none;
+    border: none;
+    padding: 0;
+}
+.navbarBellowRedtrack form button img {
+    float: left;
+    width: 30px;
+}
+.navbarBottom .topRightSpan {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    content: "";
+    display: block;
+    width: 22px;
+    background-color: #f72210;
+    border-left: 12px solid #fff;
+    border-top: 13px solid #f72210;
+    width: 96px;
+    margin-top: 0px;
+    z-index: 10;
+}
