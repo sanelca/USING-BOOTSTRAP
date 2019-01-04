@@ -123,3 +123,119 @@ border: none;
     margin-top: 0px;
     z-index: 10;
 }
+.inTheMagazine {
+    margin-top: 25px;
+}
+.inTheMagazine .colone .titleTop {
+    float: left;
+    width: 100%;
+}
+
+.inTheMagazine .row {
+
+}
+.inTheMagazine .title {
+    float: left;
+    width: 100%;
+}
+.inTheMagazine .title h3 {
+    float: left;
+    width: 100%;
+    text-align: center;  
+}
+.inTheMagazine .title h3 span {
+    
+}
+.inTheMagazine .title h3 span svg {
+    width: 31px;
+    vertical-align: initial;
+    background-color: #ff0000;
+    width: 24px;
+}
+.inTheMagazine .seeAllFeatures {
+    
+    bottom: 0; 
+    padding-right: 15px;   
+}
+.inTheMagazine .seeAllFeatures .image, .inTheMagazine .seeAllFeatures2 .image {
+    float: left;
+    width: 100%;
+    position: relative;    
+}
+.inTheMagazine .seeAllFeatures .image img, .inTheMagazine .seeAllFeatures2 .image img {
+    float: left;
+    width: 100%; 
+    cursor: pointer;
+}
+.inTheMagazine .seeAllFeatures .image span {
+    position: absolute;
+    bottom: 0;
+    float: left;
+    left: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #ececec;
+    color: red;
+    font-weight: 700;
+    cursor: pointer; 
+}
+.inTheMagazine .seeAllFeatures a {
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #efefef;
+    cursor: pointer;
+}
+.inTheMagazine .seeAllFeatures a:hover {
+    background-color: #d2d0d0;
+}
+.inTheMagazine .seeAllFeatures2 {
+
+}
+.inTheMagazine .seeAllFeatures2 .image {
+    
+}
+.inTheMagazine .seeAllFeatures2 .image img {
+    float: left;
+    width: 100%;    
+}
+.inTheMagazine .seeAllFeatures2 .image .description {
+    float: left;
+    width: 100%;
+}
+.inTheMagazine .seeAllFeatures2 .image .description span {
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: red;
+    color: white;
+    font-weight: 700;    
+}
+.inTheMagazine .seeAllFeatures2 .image .description a {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    float: left;
+    color: red;
+    font-weight: 700;
+    cursor: pointer;    
+}
+.inTheMagazine .seeAllFeatures2 .tit {
+    float: left;
+    width: 100%;
+    font-size: 22px;
+    color: black;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 5px;
+}
+.inTheMagazine .seeAllFeatures2 .tit:hover {
+    text-decoration: underline red;
+}
