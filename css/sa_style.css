@@ -1,3 +1,6 @@
+.container-fluid, .container {
+    max-width: 1310px;
+}
 .headerTop, .navbarBottom, .afixSection .row {
     margin: 0;
     position: relative;
@@ -282,3 +285,205 @@ border: none;
 .slideShows article h3:hover {
     text-decoration: underline red;
 }
+.subscribeAndMostRead {
+
+}
+.subscribeAndMostRead h3 {
+    float: left;
+    width: 100%;
+    color: red;
+    font-size: 20px;    
+}
+.subscribeAndMostRead .content {
+    padding: 10px;
+    background-color: #ececec;
+    float: left;
+    width: 100%;
+}
+.subscribeAndMostRead .content picture {
+    float: left;
+    width: 100%;
+    padding-bottom: 17px;
+    border-bottom: solid 1px #c1c1c1;
+    padding-top: 15px;
+}
+.subscribeAndMostRead .content picture img {
+    float: left;
+    width: 34%;
+}
+.subscribeAndMostRead .content picture .description {
+    float: left;
+    margin-left: 15px;
+    width: 60%;
+}
+.subscribeAndMostRead .content picture .description h3 {
+    color: black;
+    font-size: 25px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.subscribeAndMostRead .content picture .description p {
+    float: left;
+    width: 100%;
+    margin: 0;
+}
+.subscribeAndMostRead .content .subscribe {
+    float: left;
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+}
+.subscribeAndMostRead .content .subscribe a {
+    
+}
+.subscribeAndMostRead .content .subscribe a span {
+    background-color: #f72210;
+    display: inline-block;
+    padding: 10px 10px 10px 12px;
+    color: #fff;
+    font: bold 18px/18px "Roboto Condensed",sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.subscribeAndMostRead .content .subscribe a span:hover {
+    background-color: #c51e10;
+}
+.subscribeAndMostRead .mostRead {
+
+}
+.subscribeAndMostRead .mostRead h3 {
+    color: black;
+}
+.subscribeAndMostRead .mostRead .articles {
+    float: left;
+}
+.subscribeAndMostRead .mostRead .articles article {
+    float: left;
+    padding-top: 10px;
+    border-top: solid 1px gainsboro;
+}
+.subscribeAndMostRead .mostRead .articles article span {
+    max-height: 148px;
+    float: left;
+    width: 30%;
+}
+.subscribeAndMostRead .mostRead .articles article img {
+    float: left;
+
+}
+.subscribeAndMostRead .mostRead .articles article p {
+    float: left;
+    width: 60%;
+    margin-left: 5%;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.subscribeAndMostRead .mostRead .articles article p:hover {
+    color: red;
+}
+footer {
+
+}
+footer .logoLeft {
+    
+}
+footer .logoLeft svg {
+    float: left;
+    width: 270px;
+    fill: red;   
+    cursor: pointer;
+}
+footer .logoLeft svg path {
+    fill: red;
+}
+footer .logoLeft p {
+    float: left;
+    margin: 0;
+    margin-left: 10px;
+    margin-top: 20px;    
+}
+.socialMedia {
+
+}
+.socialMedia .socialIcons {
+    
+}
+.socialMedia .socialIcons i {
+    float: right;
+    margin-left: 10px;
+    font-size: 25px;
+    cursor: pointer;
+    -webkit-text-fill-color: grey;    
+}
+.socialMedia .socialIcons i.fa-facebook:hover {
+    -webkit-text-fill-color: blue;
+}
+.socialMedia .socialIcons i.fa-twitter-square:hover {
+    -webkit-text-fill-color: #21b2ca;
+}
+.socialMedia .socialIcons i.fa-google-plus-g:hover {
+    -webkit-text-fill-color: red;
+}
+.socialMedia .socialIcons i.fa-instagram:hover {
+    -webkit-text-fill-color: #2e87c5;
+}
+.socialMedia .socialIcons i.fa-tumblr-square:hover {
+    -webkit-text-fill-color: black;
+}
+.socialMedia .socialIcons i.fa-linkedin-in:hover {
+    -webkit-text-fill-color: #1d78c5;
+}
+.socialMedia .aboutUsURLs {
+    margin: 0;
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+}
+.socialMedia .aboutUsURLs a {
+    float: left;
+    padding-left: 6px;
+    padding-right: 6px;
+    color: #4c4c4c;
+    cursor: pointer;    
+}
+.socialMedia .aboutUsURLs a.first {
+    padding-left: 0px;
+}
+.socialMedia .aboutUsURLs a:hover {
+    color: #000000;
+}
+.socialMedia .aboutUsURLs.right {
+    text-align: center;
+}
+.socialMedia .aboutUsURLs.right a {
+    float: none; 
+}
+.socialMedia .aboutUsURLs.right span {
+    font-weight: 700;
+}
+@media (max-width: 420px) {
+    .navbarBottom .topRightSpan {
+        display: none;
+    }
+    .navbarBellowRedtrack ul {
+        max-width: 100%;
+    }   
+    .navbarBellowRedtrack ul li {
+        float: left;
+        width: 100%;
+    }
+    .navbarBellowRedtrack ul li a {
+        float: left;
+        color: black!important;
+        font-weight: 900;
+        font-size: 20px;
+        width: 100%;
+        text-align: center;
+        border: none;
+        padding: 0!important 3px 0!important 3px;
+    }         
+}
+  
