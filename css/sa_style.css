@@ -239,3 +239,46 @@ border: none;
 .inTheMagazine .seeAllFeatures2 .tit:hover {
     text-decoration: underline red;
 }
+.slideShows {
+
+}
+.slideShows article {
+    float: left;
+    position: relative;    
+}
+
+.slideShows article picture {
+    float: left;
+    position: relative;
+}
+.slideShows article picture img {
+    float: left;
+    width: 100%;    
+}
+.slideShows article picture span {
+    position: absolute;
+    bottom: 0;
+    float: left;
+    left: 0;
+    padding-top: 33px;
+    padding-bottom: 12px;
+    padding-left: 49px;
+    padding-right: 40px;
+    background-color: #ececec;
+    color: red;
+    font-weight: 700;
+    cursor: pointer;
+    background-image: url(../images/slideShow/icon-slideshows-nw.png);
+    font-size: 21px;
+}
+.slideShows article h3 {
+    float: left;
+    width: 100%;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;    
+}
+.slideShows article h3:hover {
+    text-decoration: underline red;
+}
