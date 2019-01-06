@@ -250,15 +250,15 @@ border: none;
     position: relative;    
 }
 
-.slideShows article picture {
+.slideShows article .picture {
     float: left;
     position: relative;
 }
-.slideShows article picture img {
+.slideShows article .picture img {
     float: left;
     width: 100%;    
 }
-.slideShows article picture span {
+.slideShows article .picture span {
     position: absolute;
     bottom: 0;
     float: left;
@@ -300,30 +300,30 @@ border: none;
     float: left;
     width: 100%;
 }
-.subscribeAndMostRead .content picture {
+.subscribeAndMostRead .content .picture {
     float: left;
     width: 100%;
     padding-bottom: 17px;
     border-bottom: solid 1px #c1c1c1;
     padding-top: 15px;
 }
-.subscribeAndMostRead .content picture img {
+.subscribeAndMostRead .content .picture img {
     float: left;
     width: 34%;
 }
-.subscribeAndMostRead .content picture .description {
+.subscribeAndMostRead .content .picture .description {
     float: left;
     margin-left: 15px;
     width: 60%;
 }
-.subscribeAndMostRead .content picture .description h3 {
+.subscribeAndMostRead .content .picture .description h3 {
     color: black;
     font-size: 25px;
     font-weight: 700;
     cursor: pointer;
     margin-bottom: 10px;
 }
-.subscribeAndMostRead .content picture .description p {
+.subscribeAndMostRead .content .picture .description p {
     float: left;
     width: 100%;
     margin: 0;
@@ -485,5 +485,8 @@ footer .logoLeft p {
         border: none;
         padding: 0!important 3px 0!important 3px;
     }         
+}
+h6 {
+    display: none;
 }
   

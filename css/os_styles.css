@@ -254,16 +254,16 @@
     float: left;
     width: 100%;
 }
-.editorPicks article picture {
+.editorPicks article .picture {
     float: left;
     position: relative;
 }
-.editorPicks article picture img {
+.editorPicks article .picture img {
     float: left;
     width: 100%;
     cursor: pointer;
 }
-.editorPicks article picture span {
+.editorPicks article .picture span {
     position: absolute;
     bottom: 0;
     float: left;
