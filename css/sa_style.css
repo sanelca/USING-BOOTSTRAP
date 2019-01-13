@@ -17,18 +17,13 @@
     margin-top: 14px;
     margin-bottom: 14px;
 }
-.headerTop .left {
-
-}
 .headerTop .left span {
     color: white;
     position: absolute;
     bottom: 7px;
     left: 20px;    
 }
-.headerTop .right{
 
-}
 .headerTop .right a {
     padding-top: 5px;
     padding-bottom: 5px;
@@ -83,9 +78,7 @@
     font-size: 20px;
     border-right: solid 1px #cccccc; 
 }
-.navbarBellowRedtrack ul li a.imageLink {
-    
-}
+
 .navbarBellowRedtrack ul li a.imageLink img {
     width: 110px;
 }
@@ -134,9 +127,6 @@ border: none;
     width: 100%;
 }
 
-.inTheMagazine .row {
-
-}
 .inTheMagazine .title {
     float: left;
     width: 100%;
@@ -146,9 +136,7 @@ border: none;
     width: 100%;
     text-align: center;  
 }
-.inTheMagazine .title h3 span {
-    
-}
+
 .inTheMagazine .title h3 span svg {
     width: 31px;
     vertical-align: initial;
@@ -156,7 +144,6 @@ border: none;
     width: 24px;
 }
 .inTheMagazine .seeAllFeatures {
-    
     bottom: 0; 
     padding-right: 15px;   
 }
@@ -195,12 +182,6 @@ border: none;
 }
 .inTheMagazine .seeAllFeatures a:hover {
     background-color: #d2d0d0;
-}
-.inTheMagazine .seeAllFeatures2 {
-
-}
-.inTheMagazine .seeAllFeatures2 .image {
-    
 }
 .inTheMagazine .seeAllFeatures2 .image img {
     float: left;
@@ -242,9 +223,6 @@ border: none;
 .inTheMagazine .seeAllFeatures2 .tit:hover {
     text-decoration: underline red;
 }
-.slideShows {
-
-}
 .slideShows article {
     float: left;
     position: relative;    
@@ -284,9 +262,6 @@ border: none;
 }
 .slideShows article h3:hover {
     text-decoration: underline red;
-}
-.subscribeAndMostRead {
-
 }
 .subscribeAndMostRead h3 {
     float: left;
@@ -334,9 +309,6 @@ border: none;
     width: 100%;
     margin-top: 10px;
 }
-.subscribeAndMostRead .content .subscribe a {
-    
-}
 .subscribeAndMostRead .content .subscribe a span {
     background-color: #f72210;
     display: inline-block;
@@ -349,9 +321,6 @@ border: none;
 }
 .subscribeAndMostRead .content .subscribe a span:hover {
     background-color: #c51e10;
-}
-.subscribeAndMostRead .mostRead {
-
 }
 .subscribeAndMostRead .mostRead h3 {
     color: black;
@@ -371,7 +340,6 @@ border: none;
 }
 .subscribeAndMostRead .mostRead .articles article img {
     float: left;
-
 }
 .subscribeAndMostRead .mostRead .articles article p {
     float: left;
@@ -383,12 +351,6 @@ border: none;
 }
 .subscribeAndMostRead .mostRead .articles article p:hover {
     color: red;
-}
-footer {
-
-}
-footer .logoLeft {
-    
 }
 footer .logoLeft svg {
     float: left;
@@ -404,12 +366,6 @@ footer .logoLeft p {
     margin: 0;
     margin-left: 10px;
     margin-top: 20px;    
-}
-.socialMedia {
-
-}
-.socialMedia .socialIcons {
-    
 }
 .socialMedia .socialIcons i {
     float: right;

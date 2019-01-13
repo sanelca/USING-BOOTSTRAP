@@ -7,9 +7,6 @@
     font-size: 20px;
     font-weight: 700;
 }
-.afixSection .articles {
-
-}
 .afixSection .articles .article {
     float: left;
     margin-top: 10px;
@@ -35,9 +32,6 @@
     cursor: pointer;
     color: red;
     font-weight: 700;
-}
-.afixSection .articles .article .image .category span {
-
 }
 .afixSection .articles .article h3 {
     float: left;
@@ -113,9 +107,6 @@
 .moreStoriesArticles .article p {
     margin: 0;
 }
-.opinionArticles {
-
-}
 .opinionArticles .article {
     float: left;
     width: 100%;
@@ -160,9 +151,6 @@
 }
 .opinionArticles .article .right a:hover {
     color: red;
-}
-.lastNewsArticles {
-
 }
 .lastNewsArticles article {
     float: left;
@@ -218,9 +206,6 @@
     background-color: red;
     fill: white;
 }
-.signUpBox .content .titleFlex span svg image {
-
-}
 .signUpBox .content .titleFlex h3 {
     float: left;
     width: 100%;
@@ -245,10 +230,6 @@
     color: black;
     font-weight: 700;
     cursor: pointer;
-}
-
-.editorPicks {
-
 }
 .editorPicks article {
     float: left;
@@ -288,16 +269,8 @@
 .editorPicks article h3:hover {
     text-decoration: underline  red;
 }
-
-.categoriesSection {
-
-}
 .categoriesSection .titleCategory {
     color: #ff0909;
-}
-
-.categoriesSection article {
-
 }
 .categoriesSection article img {
     float: left;
@@ -328,7 +301,6 @@
 }
 .categoriesSection  ul li a {
     float: left;
-
 }
 .categoriesSection  ul li a img {
     float: left;
