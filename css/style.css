@@ -1,0 +1,767 @@
+.container-fluid, .container {
+    max-width: 1310px;
+}
+.headerTop, .navbarBottom, .afixSection .row {
+    margin: 0;
+    position: relative;
+}
+.headerTop {
+    background-color: #ff0707;
+}
+.headerTop .center {
+    text-align: center;
+}
+.headerTop .center svg {
+    fill: white;
+    width: 60%;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+.headerTop .left span {
+    color: white;
+    position: absolute;
+    bottom: 7px;
+    left: 20px;    
+}
+
+.headerTop .right a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    font-weight: 900;
+    float: right;
+    margin-top: 35px;
+}
+.headerTop .right .subscribe {
+    background-color: white;
+    color: red;
+}
+.headerTop .right .subscribe span {
+    float: left;
+    margin-top: 1px;
+}
+.headerTop .right .subscribe svg{
+    fill: red;
+    width: 9px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.headerTop .right .signIn{
+    margin-right: 10px;
+    color: white;
+    
+}
+.navbarBellowRedtrack {
+    border-bottom: solid 1px #ececec;
+    display: block;
+    float: left;
+    width: 100%;
+    background-color: white!important;
+}
+.navbarBellowRedtrack ul {
+    float: left;
+    display: block;
+    max-width: 90%;   
+}
+.navbarBellowRedtrack ul li {
+    float: left;
+}
+.navbarBellowRedtrack ul li a {
+    float: left;
+    color: black!important;
+    font-weight: 900;
+    padding-left: 25px!important;
+    padding-right: 25px!important;
+    font-size: 20px;
+    border-right: solid 1px #cccccc; 
+}
+
+.navbarBellowRedtrack ul li a.imageLink img {
+    width: 110px;
+}
+.navbarBellowRedtrack ul li a:hover {
+    color: red!important;
+}
+.navbarBellowRedtrack form {
+    float: left;
+    margin-left: 20px;
+}
+.navbarBellowRedtrack form input {
+border: none;
+    background: none;
+    width: 65px!important;
+    margin: 0!important;
+    padding: 0!important;
+}
+.navbarBellowRedtrack form button {
+    background: none;
+    border: none;
+    padding: 0;
+}
+.navbarBellowRedtrack form button img {
+    float: left;
+    width: 30px;
+}
+.navbarBottom .topRightSpan {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    content: "";
+    display: block;
+    width: 22px;
+    background-color: #f72210;
+    border-left: 12px solid #fff;
+    border-top: 13px solid #f72210;
+    width: 96px;
+    margin-top: 0px;
+    z-index: 10;
+}
+.inTheMagazine {
+    margin-top: 25px;
+}
+.inTheMagazine .colone .titleTop {
+    float: left;
+    width: 100%;
+}
+
+.inTheMagazine .title {
+    float: left;
+    width: 100%;
+}
+.inTheMagazine .title h3 {
+    float: left;
+    width: 100%;
+    text-align: center;  
+}
+
+.inTheMagazine .title h3 span svg {
+    width: 31px;
+    vertical-align: initial;
+    background-color: #ff0000;
+    width: 24px;
+}
+.inTheMagazine .seeAllFeatures {
+    bottom: 0; 
+    padding-right: 15px;   
+}
+.inTheMagazine .seeAllFeatures .image, .inTheMagazine .seeAllFeatures2 .image {
+    float: left;
+    width: 100%;
+    position: relative;    
+}
+.inTheMagazine .seeAllFeatures .image img, .inTheMagazine .seeAllFeatures2 .image img {
+    float: left;
+    width: 100%; 
+    cursor: pointer;
+}
+.inTheMagazine .seeAllFeatures .image span {
+    position: absolute;
+    bottom: 0;
+    float: left;
+    left: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #ececec;
+    color: red;
+    font-weight: 700;
+    cursor: pointer; 
+}
+.inTheMagazine .seeAllFeatures a {
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #efefef;
+    cursor: pointer;
+}
+.inTheMagazine .seeAllFeatures a:hover {
+    background-color: #d2d0d0;
+}
+.inTheMagazine .seeAllFeatures2 .image img {
+    float: left;
+    width: 100%;    
+}
+.inTheMagazine .seeAllFeatures2 .image .description {
+    float: left;
+    width: 100%;
+}
+.inTheMagazine .seeAllFeatures2 .image .description span {
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: red;
+    color: white;
+    font-weight: 700;    
+}
+.inTheMagazine .seeAllFeatures2 .image .description a {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    float: left;
+    color: red;
+    font-weight: 700;
+    cursor: pointer;    
+}
+.inTheMagazine .seeAllFeatures2 .tit {
+    float: left;
+    width: 100%;
+    font-size: 22px;
+    color: black;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 5px;
+}
+.inTheMagazine .seeAllFeatures2 .tit:hover {
+    text-decoration: underline red;
+}
+.slideShows article {
+    float: left;
+    position: relative;    
+}
+
+.slideShows article .picture {
+    float: left;
+    position: relative;
+}
+.slideShows article .picture img {
+    float: left;
+    width: 100%;    
+}
+.slideShows article .picture span {
+    position: absolute;
+    bottom: 0;
+    float: left;
+    left: 0;
+    padding-top: 33px;
+    padding-bottom: 12px;
+    padding-left: 49px;
+    padding-right: 40px;
+    background-color: #ececec;
+    color: red;
+    font-weight: 700;
+    cursor: pointer;
+    background-image: url(../images/slideShow/icon-slideshows-nw.png);
+    font-size: 21px;
+}
+.slideShows article h3 {
+    float: left;
+    width: 100%;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;    
+}
+.slideShows article h3:hover {
+    text-decoration: underline red;
+}
+.subscribeAndMostRead h3 {
+    float: left;
+    width: 100%;
+    color: red;
+    font-size: 20px;    
+}
+.subscribeAndMostRead .content {
+    padding: 10px;
+    background-color: #ececec;
+    float: left;
+    width: 100%;
+}
+.subscribeAndMostRead .content .picture {
+    float: left;
+    width: 100%;
+    padding-bottom: 17px;
+    border-bottom: solid 1px #c1c1c1;
+    padding-top: 15px;
+}
+.subscribeAndMostRead .content .picture img {
+    float: left;
+    width: 34%;
+}
+.subscribeAndMostRead .content .picture .description {
+    float: left;
+    margin-left: 15px;
+    width: 60%;
+}
+.subscribeAndMostRead .content .picture .description h3 {
+    color: black;
+    font-size: 25px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.subscribeAndMostRead .content .picture .description p {
+    float: left;
+    width: 100%;
+    margin: 0;
+}
+.subscribeAndMostRead .content .subscribe {
+    float: left;
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+}
+.subscribeAndMostRead .content .subscribe a span {
+    background-color: #f72210;
+    display: inline-block;
+    padding: 10px 10px 10px 12px;
+    color: #fff;
+    font: bold 18px/18px "Roboto Condensed",sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.subscribeAndMostRead .content .subscribe a span:hover {
+    background-color: #c51e10;
+}
+.subscribeAndMostRead .mostRead h3 {
+    color: black;
+}
+.subscribeAndMostRead .mostRead .articles {
+    float: left;
+}
+.subscribeAndMostRead .mostRead .articles article {
+    float: left;
+    padding-top: 10px;
+    border-top: solid 1px gainsboro;
+}
+.subscribeAndMostRead .mostRead .articles article span {
+    max-height: 148px;
+    float: left;
+    width: 30%;
+}
+.subscribeAndMostRead .mostRead .articles article img {
+    float: left;
+}
+.subscribeAndMostRead .mostRead .articles article p {
+    float: left;
+    width: 60%;
+    margin-left: 5%;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.subscribeAndMostRead .mostRead .articles article p:hover {
+    color: red;
+}
+footer .logoLeft svg {
+    float: left;
+    width: 270px;
+    fill: red;   
+    cursor: pointer;
+}
+footer .logoLeft svg path {
+    fill: red;
+}
+footer .logoLeft p {
+    float: left;
+    margin: 0;
+    margin-left: 10px;
+    margin-top: 20px;    
+}
+.socialMedia .socialIcons i {
+    float: right;
+    margin-left: 10px;
+    font-size: 25px;
+    cursor: pointer;
+    -webkit-text-fill-color: grey;    
+}
+.socialMedia .socialIcons i.fa-facebook:hover {
+    -webkit-text-fill-color: blue;
+}
+.socialMedia .socialIcons i.fa-twitter-square:hover {
+    -webkit-text-fill-color: #21b2ca;
+}
+.socialMedia .socialIcons i.fa-google-plus-g:hover {
+    -webkit-text-fill-color: red;
+}
+.socialMedia .socialIcons i.fa-instagram:hover {
+    -webkit-text-fill-color: #2e87c5;
+}
+.socialMedia .socialIcons i.fa-tumblr-square:hover {
+    -webkit-text-fill-color: black;
+}
+.socialMedia .socialIcons i.fa-linkedin-in:hover {
+    -webkit-text-fill-color: #1d78c5;
+}
+.socialMedia .aboutUsURLs {
+    margin: 0;
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+}
+.socialMedia .aboutUsURLs a {
+    float: left;
+    padding-left: 6px;
+    padding-right: 6px;
+    color: #4c4c4c;
+    cursor: pointer;    
+}
+.socialMedia .aboutUsURLs a.first {
+    padding-left: 0px;
+}
+.socialMedia .aboutUsURLs a:hover {
+    color: #000000;
+}
+.socialMedia .aboutUsURLs.right {
+    text-align: center;
+}
+.socialMedia .aboutUsURLs.right a {
+    float: none; 
+}
+.socialMedia .aboutUsURLs.right span {
+    font-weight: 700;
+}
+@media (max-width: 420px) {
+    .navbarBottom .topRightSpan {
+        display: none;
+    }
+    .navbarBellowRedtrack ul {
+        max-width: 100%;
+    }   
+    .navbarBellowRedtrack ul li {
+        float: left;
+        width: 100%;
+    }
+    .navbarBellowRedtrack ul li a {
+        float: left;
+        color: black!important;
+        font-weight: 900;
+        font-size: 20px;
+        width: 100%;
+        text-align: center;
+        border: none;
+        padding: 0!important 3px 0!important 3px;
+    }         
+}
+h6 {
+    display: none;
+}
+.afixSection {
+    margin-top: 20px;
+}
+.afixSection h3 {
+    margin: 0;
+    color: #bbbbbb;
+    font-size: 20px;
+    font-weight: 700;
+}
+.afixSection .articles .article {
+    float: left;
+    margin-top: 10px;
+}
+.afixSection .articles .article .image {
+    float: left;
+    position: relative;
+}
+.afixSection .articles .article .image img {
+    float: left;
+    width:100%;
+}
+.afixSection .articles .article .image .category {
+    position: absolute;
+    bottom: 0;
+    padding-left: 15px;
+    background-color: rgba(255,255,255,.9);
+    padding-right: 15px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.afixSection .articles .article .image .category a {
+    cursor: pointer;
+    color: red;
+    font-weight: 700;
+}
+.afixSection .articles .article h3 {
+    float: left;
+    width: 100%;
+    color: black;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.afixSection .articles .article h3:hover {
+    text-decoration: underline #f72210;
+}
+.afixSection .articles .article p {
+    float: left;
+    margin: 0;
+    margin-top: 5px;
+}
+.afixSection .articles .article .helpUrl {
+    float: left;
+    width: 100%;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.afixSection .articles .article .helpUrl a {
+    color: black;
+    font-weight: 700;
+    cursor: pointer;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top: solid 1px #e0e0e0;
+    border-bottom: solid 1px #e0e0e0;
+    float: left;
+    width: 100%;
+}
+.afixSection .articles .article .helpUrl a:hover {
+    color:red;
+}
+.afixSection .articles .article.sponsorInsight {
+    float: left;
+    border: solid 0.2px #e0e0e0;
+}
+.afixSection .articles .article.sponsorInsight .contentPart {
+    float: left;
+    padding: 15px;
+}
+.moreStoriesArticles {
+    float: left;
+    margin-top: 10px;
+}
+.moreStoriesArticles .article {
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: solid 1px #d6d6d6;
+    width: 100%;
+}
+.moreStoriesArticles .article .image {
+    float: left;
+    margin-right: 10px;
+    width: 22%;
+}
+.moreStoriesArticles .article .image img {
+    float: left;
+    width: 100%;
+}
+.moreStoriesArticles .article h3 {
+    float: left;
+    width: 75%;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+}
+.moreStoriesArticles .article p {
+    margin: 0;
+}
+.opinionArticles .article {
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: solid 1px #d0d0d0;
+}
+.opinionArticles .article .left {
+    float: left;
+    width: 24%;
+}
+.opinionArticles .article .left img{
+    float: left;
+    width: 100%;
+}
+.opinionArticles .article .right {
+    float: left;
+    width: 76%;
+    padding-left: 2%;
+}
+.opinionArticles .article .right h3 {
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+}
+.opinionArticles .article .right h3:hover {
+    color: red;
+}
+.opinionArticles .article .right span {
+    float: left;
+    font-size: 14px;
+    margin-right: 5px;
+    font-weight: 600;
+}
+.opinionArticles .article .right a {
+    float: left;
+    font-size: 14px;
+    margin-right: 5px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.opinionArticles .article .right a:hover {
+    color: red;
+}
+.lastNewsArticles article {
+    float: left;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #d2d2d2;
+}
+.lastNewsArticles article a {
+    float: left;
+    width: 45%;
+    cursor: pointer;
+}
+.lastNewsArticles article a img {
+    float: left;
+    width: 100%;
+}
+.lastNewsArticles article h3 {
+    float: left;
+    width: 50%;
+    font-size: 16px;
+    margin-left: 5%;
+    color: black;
+    cursor: pointer;
+}
+.lastNewsArticles article h3:hover {
+    color: red;
+}
+.signUpBox {
+    float: left;
+    width: 100%;
+}
+.signUpBox .content {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+
+}
+.signUpBox .content .titleFlex {
+    float: left;
+    padding: 4%;
+    background-color: #efefef;
+}
+.signUpBox .content .titleFlex span {
+    float: left;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.signUpBox .content .titleFlex span svg {
+    float: left;
+    width: 30px;
+    background-color: red;
+    fill: white;
+}
+.signUpBox .content .titleFlex h3 {
+    float: left;
+    width: 100%;
+    color: black;
+}
+.signUpBox .content .signUp {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: grey;
+    color: white;
+    float: left;
+    margin-top: 5px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.signUpBox .content .updatePerformances {
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+    color: black;
+    font-weight: 700;
+    cursor: pointer;
+}
+.editorPicks article {
+    float: left;
+    width: 100%;
+}
+.editorPicks article .picture {
+    float: left;
+    position: relative;
+}
+.editorPicks article .picture img {
+    float: left;
+    width: 100%;
+    cursor: pointer;
+}
+.editorPicks article .picture span {
+    position: absolute;
+    bottom: 0;
+    float: left;
+    left: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #ececec;
+    color: red;
+    font-weight: 700;
+    cursor: pointer;
+}
+.editorPicks article h3 {
+    float: left;
+    width: 100%;
+    font-size: 21px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.editorPicks article h3:hover {
+    text-decoration: underline  red;
+}
+.categoriesSection .titleCategory {
+    color: #ff0909;
+}
+.categoriesSection article img {
+    float: left;
+    width: 100%;
+    cursor: pointer;
+}
+.categoriesSection article h3 {
+    float: left;
+    width: 100%;
+    font-size: 21px;
+    font-weight: 700;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.categoriesSection article h3:hover {
+    text-decoration: underline red;
+}
+.categoriesSection  ul {
+    list-style: none;
+    margin: 0;
+    float: left;
+    padding: 0;
+}
+.categoriesSection  ul li {
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.categoriesSection  ul li a {
+    float: left;
+}
+.categoriesSection  ul li a img {
+    float: left;
+    cursor: pointer;
+    width: 30%;
+}
+.categoriesSection  ul li a  span {
+    margin-left: 10px;
+    float: left;
+    width: 67%;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.categoriesSection  ul li a  span:hover {
+    color: red;
+}
