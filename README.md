@@ -5,7 +5,7 @@ Our finished work can be found <a href="https://rawcdn.githack.com/sanelca/USING
 
 # CONTRIBUTORS 
 
-> <a href="https://github.com/sanelca" target="_blank">Sanel Hodzic</a>
+> <a href="https://github.com/sanelca" target="_blank">Sanel Hodzic</a><br /><br />
 > <a href="https://github.com/osinakayah/" target="_blank">Osinachi Ifeanyi</a>
 
 
